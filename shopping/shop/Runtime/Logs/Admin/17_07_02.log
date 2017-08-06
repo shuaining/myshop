@@ -1,0 +1,151 @@
+[ 2017-07-02T00:00:46+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0026s ]
+SQL: UPDATE `group_user` SET `email`='',`uname`='',`password`='d41d8cd98f00b204e9800998ecf8427e',`phone`='' WHERE `uid` = 1 [ RunTime:0.0481s ]
+
+[ 2017-07-02T00:01:01+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-02T00:01:21+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-02T00:01:24+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-02T00:01:26+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 7 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-02T00:02:18+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-02T00:21:27+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-02T00:21:47+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-02T00:21:54+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-02T00:21:58+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-02T00:22:00+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 7 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-02T00:22:02+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-02T00:22:06+08:00 ] ::1 /shopping/shop/index.php/admin/User/edit?uid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `group_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-02T00:22:49+08:00 ] ::1 /shopping/shop/index.php/admin/User/uname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-02T00:23:09+08:00 ] ::1 /shopping/shop/index.php/admin/User/email
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `group_user` WHERE `email` = 'admin@cmstop.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-02T00:23:14+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `group_user` WHERE `email` = 'admin@cmstop.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('admin@cmstop.com','admin','e10adc3949ba59abbe56e057f20f883e','22222222222') [ RunTime:0.0945s ]
+
+[ 2017-07-02T00:59:18+08:00 ] ::1 /shopping/shop/index.php/admin/User/uname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wwwww' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-02T01:03:42+08:00 ] ::1 /shopping/shop/index.php/admin/User/uname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wwwww' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-02T01:05:14+08:00 ] ::1 /shopping/shop/index.php/admin/User/uname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wwwww' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-02T01:06:08+08:00 ] ::1 /shopping/shop/index.php/admin/User/uname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wwwww' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-02T19:04:17+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0008s ]
+

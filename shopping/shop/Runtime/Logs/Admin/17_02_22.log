@@ -1,0 +1,302 @@
+[ 2017-02-22T11:35:07+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-22T11:38:02+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-22T12:58:13+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:13+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:16+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:16+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:19+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:19+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:32+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:32+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:58:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:59:23+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:59:23+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:59:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T12:59:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:01:03+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:01:05+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:01:15+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:02:31+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:02:31+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:02:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:02:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:02:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:02:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:02:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:02:33+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:52+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:52+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:54+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:54+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:55+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:55+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:55+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:55+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:55+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:55+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:55+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:03:55+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:05:06+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:05:06+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:07:21+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T13:07:22+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:01:37+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:01:38+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:01:39+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:01:39+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:07:23+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:07:55+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:29:45+08:00 ] ::1 /myshop/shop/index.php/admin/user/show.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:29:45+08:00 ] ::1 /myshop/shop/index.php/admin/user/tianjia.html
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:31:51+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:39:44+08:00 ] ::1 /myshop/shop/index.php/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:39:51+08:00 ] ::1 /myshop/shop/index.php/Admin/User/show
+ERR: 无法加载控制器:User
+
+[ 2017-02-22T14:50:53+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-22T14:53:54+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-22T14:54:58+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-22T14:55:03+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-22T14:57:46+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-22T15:12:46+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-22T15:17:35+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-22T15:17:38+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-22T15:31:06+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-22T15:34:46+08:00 ] ::1 /myshop/shop/index.php/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-22T16:57:47+08:00 ] ::1 /myshop/shop/index.php/admin/index/some.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:some
+
+[ 2017-02-22T16:59:43+08:00 ] ::1 /myshop/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\UserController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0060s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('John','Boston','11111','11111') [ RunTime:0.0900s ]
+
+[ 2017-02-22T17:19:47+08:00 ] ::1 /myshop/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\UserController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0050s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('0','sadsa','saddqw','1111') [ RunTime:0.0680s ]
+
+[ 2017-02-22T17:20:28+08:00 ] ::1 /myshop/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\UserController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('111','222','333','444') [ RunTime:0.0910s ]
+
+[ 2017-02-22T17:26:43+08:00 ] ::1 /myshop/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\UserController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0050s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('2132','21312','2313','1231') [ RunTime:0.1060s ]
+

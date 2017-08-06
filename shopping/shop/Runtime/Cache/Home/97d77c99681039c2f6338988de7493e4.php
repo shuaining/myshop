@@ -1,0 +1,727 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>优社电商 优秀商城选优社 ——微商城开发,商城模板,商城建设 选优社- 生鲜绿色农产品专属解决方案 电脑版微信模版 商城网站模板</title>
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="生鲜绿色农产品专属解决方案 电脑版 生鲜电商解决方案 微信商城免费模板 微信商城模板 电子商城网站模板 网站模板商城 bootstrap 电商模板 免费商城模板下载 在线商城模板 微商城网站模板" />
+    <meta name="keywords" content="商城建站模板 商城系统模板 商城模板html 商城手机模板 app电商模板 手机商城 商城 网站 模板 移动商城 官网模板 模板网站 电子商务 网站" />
+    <meta property="qc:admins" content="52516704676523545346375" />
+    <meta property="wb:webmaster" content="7c478538ace87087" />
+<link rel="stylesheet" type="text/css" href="/myshop/shop/Public/home/css/global.css" />
+<link rel="stylesheet" type="text/css" href="/myshop/shop/Public/home/css/dialog.css" />
+<link rel="stylesheet" type="text/css" href="/myshop/shop/Public/home/css/hb_main.css" />
+<link rel="stylesheet" type="text/css" href="/myshop/shop/Public/home/css/sidebar.css" />
+<link rel="stylesheet" type="text/css" href="/myshop/shop/Public/home/css/photos-shop-detail.css" />
+<link rel="stylesheet" type="text/css" href="/myshop/shop/Public/home/css/common.css" />       
+
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/artdialog6.0.5.js"></script>
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/public.ajaxcart.js"></script>
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/public.common.js"></script>
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/jquery.paynumber.js"></script>
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/detail.js"></script>
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/timedown.js"></script>
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/jqpaginator.js"></script>
+<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/public.js"></script>
+
+<!-- <link href="<?php echo CSS_URL;?>global.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo CSS_URL;?>dialog.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo CSS_URL;?>hb_main.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo CSS_URL;?>photos-shop-detail.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo CSS_URL;?>common.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo CSS_URL;?>sidebar.css" rel="stylesheet" type="text/css" /> -->
+
+<!-- <script src="<?php echo JS_URL;?>jquery-1.8.1.min.js" type="text/javascript"></script>
+<script src="<?php echo JS_URL;?>artdialog6.0.5.js" type="text/javascript"></script>
+<script src="<?php echo JS_URL;?>public.ajaxcart.js" type="text/javascript"></script>
+<script src="<?php echo JS_URL;?>public.common.js" type="text/javascript"></script>
+<script src="<?php echo JS_URL;?>jquery.paynumber.js" type="text/javascript"></script>
+<script src="<?php echo JS_URL;?>detail.js" type="text/javascript"></script>
+<script src="<?php echo JS_URL;?>timedown.js" type="text/javascript"></script>
+<script src="<?php echo JS_URL;?>jqpaginator.js" type="text/javascript"></script>
+<script src="<?php echo JS_URL;?>public.js" type="text/javascript"></script> -->
+
+<meta property="og:type" content="product" />
+<meta property="og:title" content="生鲜绿色农产品专属解决方案 电脑版" />
+<meta property="og:description" content="生鲜绿色农产品专属解决方案 电脑版 生鲜电商解决方案 微信商城免费模板 微信商城模板 电子商城网站模板 网站模板商城 bootstrap 电商模板 免费商城模板下载 在线商城模板 微商城网站模板" />
+<meta property="og:image" content="http://www.urselect.com/content/images/thumbs/0002920_-_300.jpeg" />
+<meta property="og:url" content="http://www.urselect.com/item-887" />
+<meta property="og:site_name" content="优社电商" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="优社电商" />
+<meta property="twitter:title" content="生鲜绿色农产品专属解决方案 电脑版" />
+<meta property="twitter:description" content="生鲜绿色农产品专属解决方案 电脑版 生鲜电商解决方案 微信商城免费模板 微信商城模板 电子商城网站模板 网站模板商城 bootstrap 电商模板 免费商城模板下载 在线商城模板 微商城网站模板" />
+<meta property="twitter:image" content="http://www.urselect.com/content/images/thumbs/0002920_-_300.jpeg" />
+<meta property="twitter:url" content="http://www.urselect.com/item-887" />
+
+    
+    
+</head>
+<body>
+    
+    
+
+
+<div class="top_bar">
+    <div class="top_bar_bd cle">
+        <ul class="bar_fl">
+                <li class="topbar_user">
+                    <a href="/login">登 录</a>
+                    <s>&nbsp;</s>
+                    <a href="/register">免费注册</a>
+                </li>
+        </ul>
+        <ul class="bar_fr" id="topbar_nav">
+            <li class="more_menu" id="header_guanzhu">
+                <a href="javascript:;">关注我们</a> 
+                <i class="iconfont arrow"> </i>
+                <div class="more_bd">
+                    <div class="list">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="/t/aboutus">帮助中心</a>
+            </li>
+            <li>
+                <a id="favorite_wb" href="javascript:addToFav();">
+                    <i class="iconfont">Ū</i>
+                    收藏
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="header">
+    <div class="hd_main cle">
+        <div class="logo">
+    <p>
+        <a href="/" class="lizi_logo" title="优社电商">
+            <img src="/myshop/shop/Public/home/Picture/0002912.png" title="优社电商" alt="优社电商" />
+        </a>
+    </p>
+</div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="/" title=优社网>首页</a></li>
+                <li>
+                    <a href="javascript:;">商城系统</a>
+                    <div class="drop-down" style="display:none;">
+                            <ul>
+                                <li>
+                                    <a href="/jieshao/pc" title="商城定制">商城定制</a>
+                                </li>
+                                <li>
+                                    <a href="/jieshao/yidong" title="微商城">微商城</a>
+                                </li>
+                                <li>
+                                    <a href="/jieshao/fuwu" title="商城服务">商城服务</a>
+                                </li>
+                            </ul>
+                    </div>
+                </li>
+                <li><a href="/cat-42" title="主题模板">主题模板</a></li>
+                <li><a href="/extensions" title="插件">插件</a></li>
+                <li><a href="/news" title="合作推广">电商资讯</a></li>
+            </ul>
+        </div>
+        
+<div class="search_box">
+<form action="/search" id="search_fm" method="get" name="search_fm">        <input class="sea_input" type="text" name="q" id="small-searchterms"  autocomplete="off" value="搜索所有商品"
+               onfocus="if(this.value=='搜索所有商品')this.value=''" onblur="if(this.value=='') {this.value = '搜索所有商品';}">
+        <button type="submit" class="sea_submit">搜索</button>
+</form></div>
+
+        
+<div class="head_right">
+    <div class="head_cart" id="header_cart">
+        <a class="tit" href="/cart">
+            <b class="iconfont">ŭ</b>
+            购物车
+            <em class="cartnum" style='visibility:hidden'>0</em>
+        </a>
+        
+<div class="more_bd" id="flyout-cart">
+        <div class="error_msg">您的购物车里没有商品</div>
+</div>
+
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    AjaxCart.init(true, '.cartnum', '', '#flyout-cart');
+    $(function () {
+        $("#sidebar_cartnum").html(0);
+    });
+</script>
+
+    </div>
+</div>
+
+
+
+
+
+<div id="content">
+    <div class="detail cle" itemscope itemtype="http://schema.org/Product" data-productid="887">
+        
+<div class="item_cover" id="item_cover">
+    <div class="view_bd">
+                <img class="view" style="" src="/myshop/shop/Public/home/Picture/0002920_-_300.jpeg" alt="生鲜绿色农产品专属解决方案 电脑版" title="生鲜绿色农产品专属解决方案 电脑版" itemprop="image" />
+    </div>
+    <div class="view_thumbs">
+        <ul class="cle" style="width: auto">
+                    <li class="current">
+                        <img src="/myshop/shop/Public/home/Picture/0002920_-_50.jpeg" alt="生鲜绿色农产品专属解决方案 电脑版" title="生鲜绿色农产品专属解决方案 电脑版" itemprop="image" />
+                        <i class="iconfont arrow">Ɣ</i>
+                    </li>
+        </ul>
+    </div>
+</div>
+
+        
+    <script type="text/javascript">
+        var priceValForDynUpd_887 = 9200;
+    </script>
+<form action="/item-887" id="product-details-form" method="post">    <div class="item_box" >
+        <dl class="item_detail">
+            <dt class="product_name">
+                <h1 itemprop="name">生鲜绿色农产品专属解决方案 电脑版</h1>
+                <p class="desc">生鲜电商解决方案 绿色农产品 解决方案</p>
+            </dt>
+            <dd id="item_info" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <ul class="property">
+                        <li>
+                            <span class="lbl">价&nbsp;&nbsp;&nbsp;格</span>
+                            <em class="price price-val-for-dyn-upd" id="s_nowprice" itemprop="price">¥<span class="price-val-for-dyn-upd-887">9200</span> </em>
+                                <span class="skucode_hide">http://www.guinong360.com</span>
+                        </li>
+                    <li>
+                        <span class="lbl">销&nbsp;&nbsp;&nbsp;量</span>
+                        <span>
+                            最近售出
+                            <em class="orange">5</em>
+                            件
+                        </span>
+                    </li>
+                        <li>
+                            <span class="lbl">评&nbsp;&nbsp;&nbsp;价</span>
+                            <span>
+                                <cite class="ping_star">
+                                    <i style="width:100%;"></i>
+                                </cite>
+                                <em class="orange">5 分</em>
+                                （
+                                <a href="#part_comment" id="s_comment">已有1人评价</a>
+                                ）
+                            </span>
+                        </li>
+                </ul>    
+
+
+
+
+<ul class="tobuy_box">
+    <li class="skunum_li cle">
+        <span class="lbl">数&nbsp;&nbsp;&nbsp;量</span>
+        <div class="skunum" id="s_num">
+            <span class="num_op minus" onclick="setAmount.reduce('#Quantity')" title="减少1个数量">
+                <i class="iconfont">ƛ</i>
+            </span>
+            <input id="Quantity" min="1" name="Quantity" onblur="setAmount.load('#Quantity')" onkeyup="setAmount.modify('#Quantity')" type="text" value="1">
+            <span class="num_op add" onclick="setAmount.add('#Quantity')" title="增加1个数量">
+                <i class="iconfont">ƚ</i>
+            </span>
+            <cite class="storage">
+                件
+                
+            </cite>
+        </div>
+    </li>
+    <li class="add_cart_li">
+            <a href="javascript:;" onclick="AjaxCart.addproducttocart('/addproductvarianttocart/887/1    ', '#product-details-form');return false;" class="btn" id="buy_btn">
+                <i class="iconfont">ŭ</i>
+                加入购物车
+            </a>
+                    <a href="http://www.guinong360.com" target="_blank" class="btn casebtn" rel="nofollow">
+                <i class="iconfont">&#xe653</i>
+                观看案例
+            </a>
+    </li>
+</ul>
+
+            </dd>
+        </dl>
+        
+    </div>
+</form>
+
+            <div class="seemore_items" id="seemore_items">
+        <h3>
+            看了又看
+            <a href="javascript:;" class="refresh" title="换一组">
+                <i class="iconfont"></i>
+            </a>
+        </h3>
+        <div class="bd">
+            <ul>
+                    <li>
+                        <a href="/nitrodemo" target="_blank" title="家居生活PC端网店系统 商城模板">
+                            <img width="150" height="150" alt="家居生活PC端网店系统 商城模板" src="/myshop/shop/Public/home/Picture/0002919_pc-_300.jpeg" title="家居生活PC端网店系统 商城模板" />
+                            <p class="price">&#165;8900</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/shipping-demo" target="_blank" title="支付宝">
+                            <img width="150" height="150" alt="支付宝" src="/myshop/shop/Public/home/Picture/0002945_300.jpeg" title="支付宝" />
+                            <p class="price">&#165;360</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/yueyangna-theme" target="_blank" title="母婴进口电商 进口商城 电商PC站 手机站 微信商城 三合一  解决方案">
+                            <img width="150" height="150" alt="母婴进口电商 进口商城 电商PC站 手机站 微信商城 三合一  解决方案" src="/myshop/shop/Public/home/Picture/0003107_-pc-_300.jpeg" title="母婴进口电商 进口商城 电商PC站 手机站 微信商城 三合一  解决方案" />
+                            <p class="price">&#165;8200</p>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+    <div class="detail_page">
+        <div class="detail_main cle">
+            <div class="detail_left">
+                <div class="tabs_bar_warp">
+                    <div class="tabs_bar" id="tabs_bar">
+                        <ul>
+                            <li class="current">
+                                <a href="#part_detail">商品详情</a>
+                            </li>
+                            <li>
+                                <a href="#part_comment">
+                                    评价详情(
+                                    <em>1</em>
+                                    )
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="detail_part">
+                    <div class="sectionbox" id="part_detail">
+                        
+
+                        <div class="part_box">
+                            <h2 class="tit tit_zdy">
+                                <span>商品介绍</span>
+                            </h2>
+                            <div class="part_bd">
+                                <ul style="list-style-type: none;" class=" list-paddingleft-2"><li><p style="text-indent: 2em;">产品信息</p></li><li><p style="text-indent: 2em;">货号：000666 &nbsp; &nbsp; 模板名称：农销品 &nbsp; &nbsp; &nbsp;<span style="text-indent: 2em;">主题：耐看实用 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="text-indent: 2em;">色调：绿色</span></p></li></ul><p><br/></p><p style="text-align:center"><img src="/myshop/shop/Public/home/Picture/6359856352132122588290186.jpg" title="INDEX1.jpg" width="555" height="285" style="text-align: center; white-space: normal; width: 555px; height: 285px;"/></p><p><br/></p><h3><span style="color: rgb(227, 108, 9); font-size: 20px;">首页部分</span></h3><ol style="width: 777.614px; white-space: normal;" class=" list-paddingleft-2"><li><p>全部分类，鼠标经过展开，每个分类右侧带有两个广告及对应商品品牌LOGO；</p></li><li><p>首屏广告，主广告幻灯片滚动特效、后台自定义数量、带左右箭头切换；</p></li><li><p>其它服务，采用切换式js特效切换四个小功能，其中包括活动广告、发货单（滚动式特效）、订单查询、投票等功能；</p></li><li><p>右侧有实时推文，关于咨讯的新闻。<br/></p></li></ol><p style="text-align:center"><img src="/myshop/shop/Public/home/Picture/6359856351217532688583841.jpg" title="detail.jpg" width="503" height="403" style="text-align: center; white-space: normal; width: 503px; height: 403px;"/></p><h3><span style="color: rgb(227, 108, 9); font-size: 20px;">商品详情页</span></h3><ol style="width: 777.614px; white-space: normal;" class=" list-paddingleft-2"><li><p>商品相册滚动切换效果</p></li><li><p>商品相册放大镜效果</p></li><li><p>商品属性点击选择效果</p></li><li><p>商品数量加减效果</p></li><li><p>加入购物车弹出框效果</p></li></ol><p style="white-space: normal; text-align: center;"><img src="/myshop/shop/Public/home/Picture/6359856351498276439123692.jpg" title="GOUMAI.jpg" width="723" height="275" style="text-align: center; white-space: normal; width: 723px; height: 275px;"/></p><h3><span style="color: rgb(227, 108, 9); font-size: 20px;">购物车页</span></h3><ol style="width: 777.614px; white-space: normal;" class=" list-paddingleft-2"><li><p>Ajax更新购物车商品数量、总价 、删除和收藏功能；</p></li><li><p>收藏的商品一键加入购物车功能，登录后有效；</p></li><li><p>批量删除选中的商品功能</p></li></ol><p style="white-space: normal; text-align: center;"><img src="/myshop/shop/Public/home/Picture/6359856352815574933599839.jpg" title="list.jpg" width="593" height="335" style="text-align: center; white-space: normal; width: 593px; height: 335px;"/></p><h3><span style="color: rgb(227, 108, 9); font-size: 20px;">商城列表页功能</span></h3><ol style="width: 777.614px; white-space: normal;" class=" list-paddingleft-2"><li><p>左侧商品分类点击展开收起功能，并在当前恩类呈展开状态；</p></li><li><p>商品筛选更多、收起效果；</p></li><li><p>新增销量排序、价格排序、评论数排序功能；</p></li></ol><p><br/></p>
+                            </div>
+                        </div>                              
+                                          
+                    </div>
+                    
+
+<div class="sectionbox" id="part_comment">
+    <h2 class="tit tit_pj">
+        <span>商品评价</span>
+    </h2>
+    <div class="cmt_point cle">
+        <div class="d_left">
+            <div class="d_total">
+                <div class="all_points">
+                    <b>5</b>
+                    /5
+                </div>
+                <div class="big_star">
+                    <i style="width:100%;"></i>
+                </div>
+                <div class="all_people">
+                    共
+                    <em>1</em>
+                    人打分
+                </div>
+            </div>
+            <div class="list">
+                <ul id="cmt_point_list">
+                    <li>
+                        <label>好评：</label>
+                        <p>
+                            <span style='width:100%'></span>
+                        </p>
+                        <em>100%</em>
+                    </li>
+                    <li>
+                        <label>中评：</label>
+                        <p>
+                            <span style='width:0%'></span>
+                        </p>
+                        <em>0%</em>
+                    </li>
+                    <li>
+                        <label>差评：</label>
+                        <p>
+                            <span style='width:0%'></span>
+                        </p>
+                        <em>0%</em>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="d_right">
+            <p>对自己使用过的商品进行评价，它将成为菇凉们的购买参考依据。</p>
+            <div>
+                <a href="/orders" target="_blank" class="btn">我要评价</a>
+            </div>
+        </div>
+    </div>
+    <div class="comment_box">
+        
+            <div class="comment_list" id="comment_list">
+                    <div class="com_md cle">
+                        <div class="com_md_left">
+                            <img class="face" src="/myshop/shop/Public/home/Picture/0003042_85.jpeg">
+                        </div>
+                        <div class="com_md_right">
+                            <div class="com_md_right_head cle">
+                                <div class="fl">
+                                    <span class="name">020***</span>
+                                </div>
+                                <div class="fr">
+                                    <span class="min_star">
+                                        <cite class="ping_star">
+                                            <i style="width:100%;"></i>
+                                        </cite>
+                                    </span>
+                                    <span class="com_time">2016-08-15 12:02</span>
+                                </div>
+                            </div>
+                            <div class="com_md_bd">
+                                <div class="text">
+                                    <div class="text_bd">
+                                        系统做得很不错，希望能大大提高销量。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="pagenav" id="reviewPager"></div>
+            <script type="text/javascript" language="javascript">
+                $('#reviewPager').jqPaginator({
+                    totalCounts: 1,
+                    pageSize: 5,
+                    currentPage: 1,
+                    visiblePages: 5,
+                    activeClass: 'current-page',
+                    prev: '<span class=\'checked\'><a href=\'javascript:;\'>上一页</a><\/span>',
+                    next: '<span><a href=\'javascript:;\'>下一页</a><\/span>',
+                    page: '<span><a href=\'javascript:;\'>{{page}}</a><\/span>',
+                    onPageChange: function (num, type) {
+                        $.ajax({
+                            cache: false,
+                            async: false,
+                            data:{ProductId:887,PageNumber:num},
+                            url: '/Catalog/ProductReviewsBlock',
+                            type: 'GET',
+                            success: function (data) {
+                                $("#comment_list").html(data.html);
+                            }
+                        });
+                    }
+                });
+            </script>
+    </div>
+</div>
+
+                </div>
+            </div>
+            <div class="detail_right">
+                    <div class="right_box">
+        <div class="hd">店铺热门销售</div>
+        <div class="bd">
+            <ul class="cle">
+
+<li>
+    <p class="img">
+        <a href="/nitrodemo" title="家居生活PC端网店系统 商城模板">
+            <img width="150" height="150" alt="家居生活PC端网店系统 商城模板" src="/myshop/shop/Public/home/Picture/0002919_pc-_300.jpeg" title="家居生活PC端网店系统 商城模板" />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/nitrodemo" title="家居生活PC端网店系统 商城模板">家居生活PC端网店系统 商城模板</a>
+    </p>
+    <p class="price">
+        <b>&#165;8900</b>
+    </p>
+</li>
+
+<li>
+    <p class="img">
+        <a href="/shipping-demo" title="支付宝">
+            <img width="150" height="150" alt="支付宝" src="/myshop/shop/Public/home/Picture/0002945_300.jpeg" title="支付宝" />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/shipping-demo" title="支付宝">支付宝</a>
+    </p>
+    <p class="price">
+        <b>&#165;360</b>
+    </p>
+</li>
+
+<li>
+    <p class="img">
+        <a href="/inpost" title="微博快捷登陆">
+            <img width="150" height="150" alt="微博快捷登陆" src="/myshop/shop/Public/home/Picture/0002944_300.jpeg" title="微博快捷登陆" />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/inpost" title="微博快捷登陆">微博快捷登陆</a>
+    </p>
+    <p class="price">
+        <b>&#165;300</b>
+    </p>
+</li>
+
+<li>
+    <p class="img">
+        <a href="/noptalk-lite-aliexpress" title="微信快捷登陆">
+            <img width="150" height="150" alt="微信快捷登陆" src="/myshop/shop/Public/home/Picture/0002947_300.jpeg" title="微信快捷登陆" />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/noptalk-lite-aliexpress" title="微信快捷登陆">微信快捷登陆</a>
+    </p>
+    <p class="price">
+        <b>&#165;300</b>
+    </p>
+</li>
+
+<li>
+    <p class="img">
+        <a href="/item-886" title="2016 美妆商城 化妆品商城解决方案 电脑端+手机端">
+            <img width="150" height="150" alt="2016 美妆商城 化妆品商城解决方案 电脑端+手机端" src="/myshop/shop/Public/home/Picture/0002915_2016-_300.jpeg" title="2016 美妆商城 化妆品商城解决方案 电脑端+手机端" />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/item-886" title="2016 美妆商城 化妆品商城解决方案 电脑端+手机端">2016 美妆商城 化妆品商城解决方案 电脑端+手机端</a>
+    </p>
+    <p class="price">
+        <b>&#165;7500</b>
+    </p>
+</li>
+
+<li>
+    <p class="img">
+        <a href="/item-887" title="生鲜绿色农产品专属解决方案 电脑版">
+            <img width="150" height="150" alt="生鲜绿色农产品专属解决方案 电脑版" src="/myshop/shop/Public/home/Picture/0002920_-_300.jpeg" title="生鲜绿色农产品专属解决方案 电脑版" />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/item-887" title="生鲜绿色农产品专属解决方案 电脑版">生鲜绿色农产品专属解决方案 电脑版</a>
+    </p>
+    <p class="price">
+        <b>&#165;9200</b>
+    </p>
+</li>
+
+<li>
+    <p class="img">
+        <a href="/item-888" title="电子元器件 多语言 外贸网站跨境电商商城方案  ">
+            <img width="150" height="150" alt="电子元器件 多语言 外贸网站跨境电商商城方案  " src="/myshop/shop/Public/home/Picture/0002870_-_300.jpeg" title="电子元器件 多语言 外贸网站跨境电商商城方案  " />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/item-888" title="电子元器件 多语言 外贸网站跨境电商商城方案  ">电子元器件 多语言 外贸网站跨境电商商城方案  </a>
+    </p>
+    <p class="price">
+        <b>&#165;6800</b>
+    </p>
+</li>
+
+<li>
+    <p class="img">
+        <a href="/item-908" title="小京东 2016 电商网站解决方案 电脑端+手机端">
+            <img width="150" height="150" alt="小京东 2016 电商网站解决方案 电脑端+手机端" src="/myshop/shop/Public/home/Picture/0003126_-2016-_300.jpeg" title="小京东 2016 电商网站解决方案 电脑端+手机端" />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/item-908" title="小京东 2016 电商网站解决方案 电脑端+手机端">小京东 2016 电商网站解决方案 电脑端+手机端</a>
+    </p>
+    <p class="price">
+        <b>&#165;15000</b>
+    </p>
+</li>
+
+<li>
+    <p class="img">
+        <a href="/website-development" title="网站开发计费">
+            <img width="150" height="150" alt="网站开发计费" src="/myshop/shop/Public/home/Picture/0002967_300.jpeg" title="网站开发计费" />
+        </a>
+    </p>
+    <p class="name">
+        <a href="/website-development" title="网站开发计费">网站开发计费</a>
+    </p>
+    <p class="price">
+        <b>&#165;1000</b>
+    </p>
+</li>
+            </ul>
+        </div>
+    </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+<div id="footer">
+    <div class="ft_main">
+        <div class="ft_nav">
+            <a href="/t/aboutus" class="noborder">关于我们</a>
+            <cite>/</cite>
+            <a href="/t/sysdeliver_alipay">配送政策</a>
+            <cite>/</cite>
+            <a href="/t/joinus">加入我们</a>
+            <cite>/</cite>
+            <a href="/t/aboutus" target="_blank">帮助中心</a>
+            <cite>/</cite>
+            <a href="/jieshao/daili" target="_blank">加盟代理</a>
+            <cite>/</cite>
+            <a href="/sitemap">站点地图</a>
+            <cite>/</cite>
+            <a href="/t/contactus">联系我们</a>
+            <cite>/</cite>
+            <a href="/t/links">友情链接</a>
+        </div>
+        <div class="ft_txt">
+            <p>
+                Copyright 2016, 广州商宇网络科技有限公司 URSELECT.COM 
+                    备案号：<a rel="nofollow" href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备14084822号-2</a>
+            </p>
+            <p class="ft_contact">
+                    <span>服务时间：09:00-18:00 (法定节假日除外)</span>
+                                    <span class="ft_phone">
+                        客服热线:
+                        <em>020-28170928</em>
+                    </span>
+            </p>
+            <p class="flink">
+                <a href="http://www.orchardch.com" target="_blank">Orchard中文</a>
+                <a href="http://www.58img.com" target="_blank">Web前端资源网</a>
+                <a href="http://www.itjiangtan.com" target="_blank">IT讲坛</a>
+                <a href="http://cuiqingcai.com" target="_blank">静觅</a>
+				<a href="http://www.urselect.com" target="_blank">广州微商城开发</a>
+                <a href="http://gw.urselect.com" target="_blank">商宇科技</a>
+                <a href="http://www.72byte.com/thread" target="_blank">72变</a>
+                <a href="http://www.maidouvr.com" target="_blank">麦逗VR</a>
+				<a href="http://z5a.com" target="_blank">智能产品网</a>
+				<a href="http://www.cnfeelings.com/" target="_blank">情怀网</a>
+				<a href="http://www.xp510.com" target="_blank">系统之家</a>
+				<a href="http://www.urshop.cn" target="_blank">UrShop</a>
+				<a href="http://www.cssmoban.com" target="_blank">模板之家</a>
+				<a href="http://www.eecco.co" target="_blank">EECCO合伙人</a>
+				<a href="http://www.urselect.com" target="_blank">商城模板</a>
+				<a href="http://www.mb5u.com" target="_blank">模板无忧</a>
+            </p>
+        </div>
+        <div class="fsm fsm">
+            <a>
+                <img src="/myshop/shop/Public/home/Picture/qrcode.jpg" alt="关注优社电商微信">
+                <p>
+                    <i class="iconfont"></i>
+                    <br>扫描关注微信公众号
+                </p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="g_sidebar" class="g_sidebar">
+    <ul class="sb_top">
+        <li class="sb_cart">
+            <a href="/cart">
+                <i class="iconfont">&#x19e;</i>
+                <span>购物车</span>
+                <em id="sidebar_cartnum" class="cartnum">0</em>
+            </a>
+        </li>
+    </ul>
+    <ul class="sb_btm">
+        <li>
+            <a href="/orders">
+                <i class="iconfont">&#xe652;</i>
+            </a>
+            <div class="tip">
+                <cite class="iconfont"></cite>
+                <a href="/orders">用户中心</a>
+            </div>
+        </li>
+        <li>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=1542823084&site=qq&menu=yes" target="_blank">
+                <i class="iconfont">&#x20c;</i>
+            </a>
+            <div class="tip">
+                <cite class="iconfont"></cite>
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=1542823084&site=qq&menu=yes" target="_blank">QQ联系</a>
+            </div>
+        </li>
+        <li>
+            <a href="/">
+                <i class="iconfont">&#xe653;</i>
+            </a>
+            <div class="tip">
+                <cite class="iconfont"></cite>
+                <a href="/">返回首页</a>
+            </div>
+        </li>
+        <li class="back2top">
+            <a href="javascript:;">
+                <i class="iconfont">&#xe646;</i>
+            </a>
+            <div class="tip">
+                <cite class="iconfont"></cite>
+                <a href="javascript:;">返回顶部</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+    
+    
+    
+    
+	
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?a6a3a9ed4b42dada31c3bf2b04b959bd";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?190eb351957ec86ed77493499670f82a";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+    </script>
+	<script type="text/javascript" src="/myshop/shop/Public/home/Scripts/d3c222c25810ff58b0d5da1adb71d227.js"></script>
+    <!-- <script src="<?php echo JS_URL;?>d3c222c25810ff58b0d5da1adb71d227.js" defer async></script> -->
+</body>
+</html>

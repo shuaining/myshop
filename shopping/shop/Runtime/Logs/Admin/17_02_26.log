@@ -1,0 +1,33 @@
+[ 2017-02-26T13:18:54+08:00 ] ::1 /myshop/shop/index.php/admin/User/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\UserController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column '$uid' in 'where clause'
+ [ SQL语句 ] : UPDATE `group_user` SET `email`='224444244',`uname`='124141244214431431',`password`='41241421431',`phone`='erewr' WHERE ( uid=$uid )
+ERR: 1054:Unknown column '$uid' in 'where clause'
+ [ SQL语句 ] : UPDATE `group_user` SET `email`='224444244',`uname`='124141244214431431',`password`='41241421431',`phone`='erewr' WHERE ( uid=$uid )
+
+[ 2017-02-26T13:18:58+08:00 ] ::1 /myshop/shop/index.php/admin/User/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\UserController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column '$uid' in 'where clause'
+ [ SQL语句 ] : UPDATE `group_user` SET `email`='224444244',`uname`='34234324',`password`='2423423434431',`phone`='erewr' WHERE ( uid=$uid )
+ERR: 1054:Unknown column '$uid' in 'where clause'
+ [ SQL语句 ] : UPDATE `group_user` SET `email`='224444244',`uname`='34234324',`password`='2423423434431',`phone`='erewr' WHERE ( uid=$uid )
+
+[ 2017-02-26T13:19:09+08:00 ] ::1 /myshop/shop/index.php/admin/User/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\UserController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column '$uid' in 'where clause'
+ [ SQL语句 ] : UPDATE `group_user` SET `email`='224444244',`uname`='34234324',`password`='2423423434431',`phone`='erewr' WHERE ( uid=$uid )
+ERR: 1054:Unknown column '$uid' in 'where clause'
+ [ SQL语句 ] : UPDATE `group_user` SET `email`='224444244',`uname`='34234324',`password`='2423423434431',`phone`='erewr' WHERE ( uid=$uid )
+

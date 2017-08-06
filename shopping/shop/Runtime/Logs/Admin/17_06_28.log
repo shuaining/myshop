@@ -1,0 +1,265 @@
+[ 2017-06-28T18:39:31+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-06-28T19:04:34+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-28T19:36:12+08:00 ] ::1 /shopping/shop/index.php/Admin/type/index
+ERR: 1146:Table 'hdgroup.group_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_type`
+
+[ 2017-06-28T19:42:25+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0946s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangning' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `group_user` WHERE `email` = 'wangning@cmstop.com' LIMIT 1   [ RunTime:0.0259s ]
+SQL: SELECT * FROM `group_user` WHERE `phone` = '15827069377' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wangning@cmstop.com','wangning','e10adc3949ba59abbe56e057f20f883e','15827069377') [ RunTime:0.0447s ]
+
+[ 2017-06-28T19:48:38+08:00 ] ::1 /shopping/shop/index.php/admin/User/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0028s ]
+SQL: DELETE FROM `group_user` WHERE `uid` = 2 [ RunTime:0.3075s ]
+
+[ 2017-06-28T19:48:58+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangning' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `group_user` WHERE `email` = 'wangning@cmstop.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `group_user` WHERE `phone` = '15827069377' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wangning@cmstop.com','wangning','e10adc3949ba59abbe56e057f20f883e','15827069377') [ RunTime:0.0792s ]
+
+[ 2017-06-28T19:50:38+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-28T19:50:40+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-28T19:50:40+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-28T19:50:41+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-28T19:50:43+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-28T19:50:48+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0189s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-28T19:50:54+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-28T19:51:42+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-28T19:52:54+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-28T19:54:06+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-06-28T19:54:25+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0276s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-06-28T19:55:08+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0273s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-28T19:55:13+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-28T19:55:19+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-28T19:55:23+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-06-28T20:01:14+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0513s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-28T20:01:17+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0624s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-28T20:01:20+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-28T20:01:24+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-28T20:04:50+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-28T20:08:00+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-06-28T21:52:04+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'wangan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-28T21:52:13+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-06-28T21:52:18+08:00 ] ::1 /shopping/shop/index.php/Admin/Login/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-06-28T21:52:31+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-06-28T21:52:47+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-06-28T21:53:05+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-06-28T21:56:28+08:00 ] ::1 /shopping/shop/index.php/Admin/type/index
+ERR: 1146:Table 'hdgroup.group_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_type`
+
+[ 2017-06-28T21:57:04+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+

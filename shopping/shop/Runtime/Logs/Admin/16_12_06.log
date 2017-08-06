@@ -1,0 +1,12 @@
+[ 2016-12-06T11:35:46+08:00 ] ::1 /myshop/shop/index.php/Admin/Category/category/xiugai
+ERR: 非法操作:category
+
+[ 2016-12-06T11:38:23+08:00 ] ::1 /myshop/shop/index.php/Admin/Category/category/update
+ERR: 非法操作:category
+
+[ 2016-12-06T11:40:26+08:00 ] ::1 /myshop/shop/index.php/Admin/Category/category/update
+ERR: 非法操作:category
+
+[ 2016-12-06T11:42:57+08:00 ] ::1 /myshop/shop/index.php/Admin/Category/update/1
+ERR: 参数错误或者未定义:cid
+

@@ -1,0 +1,555 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>优社电商 优秀商城选优社 ——微商城开发,商城模板,商城建设 选优社- 微信端、手机站</title>
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="优社电商,采用.net开发结合ecmall、nop、urshop、 ABP、Virto、Orchard、ECShop、HiShop等国内外商城购物系统进行多年研发而成的新一代B2B、B2C、B2B2C、O2O、跨境电商系统 提供电商模板 网站模板，系统支持多插件、多种第三方登陆方式、国内外主流支付方式、配送方式、物流跟踪及交易购物为一身。系统在跨境电商、O2O、垂直电商、平台电商均有广泛应用。经典案例有utsource、茶七网、茶途网、易充网等" />
+    <meta name="keywords" content=",广州电商建设,深圳商城开发,商城系统,生鲜电商,美妆商城,茶酒电商,dotnet电商系统,网店系统,商城交易系统,电商模板,商城模板,B2C模板,O2O网站,电子商务网站,跨境电商开发,ecshop模板" />
+    <meta property="qc:admins" content="52516704676523545346375" />
+    <meta property="wb:webmaster" content="7c478538ace87087" />
+    
+    <link href="/css/global.css" rel="stylesheet" type="text/css" />
+<link href="/css/dialog.css" rel="stylesheet" type="text/css" />
+<link href="/css/hb_main.css" rel="stylesheet" type="text/css" />
+<link href="/css/sidebar.css" rel="stylesheet" type="text/css" />
+<link href="/css/index.css" rel="stylesheet" type="text/css" />
+<link href="/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/css/mainstyle.css" rel="stylesheet" type="text/css" />
+
+    <script src="/scripts/libs/jquery-1.8.1.min.js" type="text/javascript"></script>
+<script src="/scripts/libs/artDialog6.0.5.js" type="text/javascript"></script>
+<script src="/scripts/public.ajaxcart.js" type="text/javascript"></script>
+<script src="/scripts/public.common.js" type="text/javascript"></script>
+<script src="/scripts/img3D.js" type="text/javascript"></script>
+<script src="/scripts/public.js" type="text/javascript"></script>
+<script src="/scripts/animation.js" type="text/javascript"></script>
+
+    
+    
+    
+</head>
+<body>
+    
+    
+
+
+<div class="top_bar">
+    <div class="top_bar_bd cle">
+        <ul class="bar_fl">
+                <li class="topbar_user">
+                    <a href="/login">登 录</a>
+                    <s>&nbsp;</s>
+                    <a href="/register">免费注册</a>
+                </li>
+        </ul>
+        <ul class="bar_fr" id="topbar_nav">
+            <li class="more_menu" id="header_guanzhu">
+                <a href="javascript:;">关注我们</a> 
+                <i class="iconfont arrow"> </i>
+                <div class="more_bd">
+                    <div class="list">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="/t/aboutus">帮助中心</a>
+            </li>
+            <li>
+                <a id="favorite_wb" href="javascript:addToFav();">
+                    <i class="iconfont">Ū</i>
+                    收藏
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="header">
+    <div class="hd_main cle">
+        <div class="logo">
+    <p>
+        <a href="/" class="lizi_logo" title="优社电商">
+            <img src="http://www.urselect.com/content/images/thumbs/0002912.png" title="优社电商" alt="优社电商" />
+        </a>
+    </p>
+</div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="/" title=优社网>首页</a></li>
+                <li>
+                    <a href="javascript:;">商城系统</a>
+                    <div class="drop-down" style="display:none;">
+                            <ul>
+                                <li>
+                                    <a href="/jieshao/pc" title="商城定制">商城定制</a>
+                                </li>
+                                <li>
+                                    <a href="/jieshao/yidong" title="微商城">微商城</a>
+                                </li>
+                                <li>
+                                    <a href="/jieshao/fuwu" title="商城服务">商城服务</a>
+                                </li>
+                            </ul>
+                    </div>
+                </li>
+                <li><a href="/cat-42" title="主题模板">主题模板</a></li>
+                <li><a href="/extensions" title="插件">插件</a></li>
+                <li><a href="/news" title="合作推广">电商资讯</a></li>
+            </ul>
+        </div>
+        
+<div class="search_box">
+<form action="/search" id="search_fm" method="get" name="search_fm">        <input class="sea_input" type="text" name="q" id="small-searchterms"  autocomplete="off" value="搜索所有商品"
+               onfocus="if(this.value=='搜索所有商品')this.value=''" onblur="if(this.value=='') {this.value = '搜索所有商品';}">
+        <button type="submit" class="sea_submit">搜索</button>
+</form></div>
+
+        
+<div class="head_right">
+    <div class="head_cart" id="header_cart">
+        <a class="tit" href="/cart">
+            <b class="iconfont">ŭ</b>
+            购物车
+            <em class="cartnum" style='visibility:hidden'>0</em>
+        </a>
+        
+<div class="more_bd" id="flyout-cart">
+        <div class="error_msg">您的购物车里没有商品</div>
+</div>
+
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    AjaxCart.init(true, '.cartnum', '', '#flyout-cart');
+    $(function () {
+        $("#sidebar_cartnum").html(0);
+    });
+</script>
+
+    </div>
+</div>
+
+
+
+<div class="mcmore-wrapper">
+    <div class="main-content wechat">
+        <section class="sec sec0 gray-bg">
+            <h2 class="why">微商城是什么？</h2>
+            <div class="tit-1">微商城是移动电商时代，您最好的移动微商城系统！</div>
+            <div class="tit-2 mt20">1、粉丝经济时代，利用微信圈住你的粉丝 2、粉丝沉淀转客户 3、移动端，可以随时随地联系您的客户</div>
+            <div class="sec-img mt40">
+                <img src="/images/wechat/sec1.png" alt="微信商城系统是什么，微商城怎么开通">
+                <div class="text">
+                    <div class="text1">
+                        PC时代流量、客户都是平台的（如某宝、某猫、某东）
+                    </div>
+                    <div class="text2 ">
+                        移动电商时代，客户和流量都是自己的，利用微信、陌陌、微博等社交工具为商城圈粉，<br> 圈的粉沉淀为会员，忠诚度更高
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="lr-mablock">
+            <div class="lr-content clearfix">
+                <div class="lc-img lc-left"><img src="/images/wechat/template-01.png" alt="海量的行业商城网站模版"></div>
+                <div class="lc-word lc-right  pt130">
+                    <h2>海量行业商城模版，自定义组合</h2>
+                    <p>
+                        优社移动商城系统在移动商城网站建设方面，采用了电商行业领先的网店可视化编辑模式，可以充分满足您对移动商城建设的自主性和独特的奇思妙想，并且在使用方面可视化编辑容易操作，搭建网店不费力气，轻轻松松建设好您的购物商城，所见即所得。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section class="sec sec3">
+            <div class="part p1">
+                <div class="tit">01.商城整体页面</div>
+                <div class="text">商城系统以最新的H5技术完美适配微信浏览器、UC浏览器、safari等手机浏览器，能够适应多种手机屏幕尺寸，完美呈现商城整体。</div>
+
+                <div class="dg-container">
+                    <div id="item1" class="pages">
+                        <div class="small">
+                            <ul>
+                                <li class="hove">
+                                    <span class="page mr20">
+                                        商品分类页
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="page mr20 active">
+                                        商品首页
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="page">
+                                        商品列表页
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div id="imgbox1" class="imgbox">
+                        <ul>
+                            <li class="hove" style="width: 240px; height: 440px; top: 0px; left: 400px; z-index: 10;">
+                                <img src="/images/wechat/sec3-1.jpg" alt="微官网商品分类页面">
+                                <div class="shadow" style="opacity: 0;"></div>
+                            </li>
+                            <li style="width: 220px; height: 350px; top: 40px; left: 250px; z-index: 8;">
+                                <img src="/images/wechat/sec3-2.jpg" alt="微官网商品首页">
+                                <div class="shadow"></div>
+                            </li>
+                            <li style="width: 220px; height: 350px; top: 40px; left: 600px; z-index: 8;">
+                                <img src="/images/wechat/sec3-3.jpg" alt="微官网商品列表页">
+                                <div class="shadow"></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="part p2">
+                <div class="tit">02.类淘宝购物体验</div>
+                <div class="text">微商城以类淘宝的购物体验，让用户无需学习，即可立刻上手操作，好体验就是符合用户的习惯。</div>
+
+                <div class="dg-container">
+                    <div id="item2" class="pages" style="width:580px;">
+                        <div class="small">
+                            <ul>
+                                <li class="" style="opacity: 1;">
+                                    <span class="page mr20">
+                                        商品详情页
+                                    </span>
+                                </li>
+                                <li class="" style="opacity: 1;">
+                                    <span class="page mr20">
+                                        商品添加页
+                                    </span>
+                                </li>
+                                <li class="hove" style="opacity: 1;">
+                                    <span class="page mr20 active">
+                                        加入购物车
+                                    </span>
+                                </li>
+                                <li style="opacity: 1;">
+                                    <span class="page  mr20 ">
+                                        提交订单
+                                    </span>
+                                </li>
+                                <li style="opacity: 1;">
+                                    <span class="page">
+                                        支付页
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div id="imgbox2" class="imgbox">
+                        <ul>
+                            <li class="" style="width: 220px; height: 350px; top: 40px; left: 250px; z-index: 8;">
+                                <img src="/images/wechat/sec3-4.jpg" alt="微商城商品详情页">
+                                <div class="shadow" style="opacity: 0.5;"></div>
+                            </li>
+                            <li class="" style="width: 220px; height: 350px; top: 40px; left: 250px; z-index: 8;">
+                                <img src="/images/wechat/sec3-14.jpg" alt="微商城商品添加页">
+                                <div class="shadow" style="opacity: 0.5;"></div>
+                            </li>
+                            <li class="" style="width: 220px; height: 350px; top: 40px; left: 600px; z-index: 8;">
+                                <img src="/images/wechat/sec3-5.jpg" alt="微商城加入购物车页">
+                                <div class="shadow" style="opacity: 0.5;"></div>
+                            </li>
+                            <li class="hove" style="width: 240px; height: 440px; top: 0px; left: 400px; z-index: 10;">
+                                <img src="/images/wechat/sec3-6.jpg" alt="微商城提交订单页">
+                                <div class="shadow" style="opacity: 0;"></div>
+                            </li>
+                            <li class="hove" style="width: 240px; height: 440px; top: 0px; left: 400px; z-index: 10;">
+                                <img src="/images/wechat/sec3-16.jpg" alt="微商城支付单页">
+                                <div class="shadow" style="opacity: 0;"></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="part p1">
+                <div class="tit">03.商城登陆注册</div>
+                <div class="text">商城系统简洁的登陆、注册方式。</div>
+
+                <div class="dg-container">
+                    <div id="item4" class="pages">
+                        <div class="small">
+                            <ul>
+                                <li class="hove">
+                                    <span class="page mr20">
+                                        登陆页
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="page mr20 active">
+                                        注册页
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="page">
+                                        找回密码页
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div id="imgbox4" class="imgbox">
+                        <ul>
+                            <li class="hove" style="width: 240px; height: 440px; top: 0px; left: 400px; z-index: 10;">
+                                <img src="/images/wechat/sec3-21.jpg" alt="微官网登陆页">
+                                <div class="shadow" style="opacity: 0;"></div>
+                            </li>
+                            <li style="width: 220px; height: 350px; top: 40px; left: 250px; z-index: 8;">
+                                <img src="/images/wechat/sec3-22.jpg" alt="微官网注册页">
+                                <div class="shadow"></div>
+                            </li>
+                            <li style="width: 220px; height: 350px; top: 40px; left: 600px; z-index: 8;">
+                                <img src="/images/wechat/sec3-23.jpg" alt="微官网找回密码页">
+                                <div class="shadow"></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="part p3">
+                <div class="tit">04.完善的账号个性化管理</div>
+                <div class="text">微商城所有的订单状态一目了然，支持在线申请退款/售后，收件地址的灵活编辑，个人优惠券、积分的管理等。</div>
+
+                <div class="dg-container">
+                    <div id="item3" class="pages">
+                        <div class="small">
+                            <ul>
+                                <li class="" style="opacity: 1;">
+                                    <span class="page mr20">
+                                        个人中心
+                                    </span>
+                                </li>
+                                <li class="" style="opacity: 1;">
+                                    <span class="page mr20 active">
+                                        我的订单
+                                    </span>
+                                </li>
+                                <li class="" style="opacity: 1;">
+                                    <span class="page mr20">
+                                        我的收货地址
+                                    </span>
+                                </li>
+                                <li class="hove" style="opacity: 1;">
+                                    <span class="page mr20">
+                                        添加地址
+                                    </span>
+                                </li>
+                                <li class="" style="opacity: 1;">
+                                    <span class="page">
+                                        修改密码
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="imgbox3" class="imgbox">
+                        <ul>
+                            <li class="" style="width: 220px; height: 350px; top: 40px; left: 250px; z-index: 8;">
+                                <img src="/images/wechat/sec3-7.jpg" alt="商城个人中心">
+                                <div class="shadow" style="opacity: 0.5;"></div>
+                            </li>
+                            <li class="" style="width: 200px; height: 300px; top: 60px; left: 150px; z-index: 6;">
+                                <img src="/images/wechat/sec3-8.jpg" alt="商城我的订单">
+                                <div class="shadow" style="opacity: 0.5;"></div>
+                            </li>
+                            <li class="" style="width: 200px; height: 300px; top: 60px; left: 750px; z-index: 6;">
+                                <img src="/images/wechat/sec3-9.jpg" alt="微商城我的收货地址">
+                                <div class="shadow" style="opacity: 0.5;"></div>
+                            </li>
+                            <li class="hove" style="width: 240px; height: 440px; top: 0px; left: 400px; z-index: 10;">
+                                <img src="/images/wechat/sec3-11.jpg" alt="添加地址">
+                                <div class="shadow" style="opacity: 0;"></div>
+                            </li>
+                            <li class="" style="width: 220px; height: 350px; top: 40px; left: 600px; z-index: 8;">
+                                <img src="/images/wechat/sec3-10.jpg" alt="修改密码">
+                                <div class="shadow" style="opacity: 0.5;"></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div style="overflow: hidden;" class="fly_all">
+            <div class="fly">
+                <div class="fly_l">
+                    <a href="/jieshao/gongneng">功能列表</a>
+                </div>
+                <div class="fly_r" style="padding-left: 5px;">
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1542823084&site=qq&menu=yes" target="_blank">在线咨询</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 区块内容 -->
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload = function () {
+        img3D("imgbox1", "item1");
+        img3D("imgbox2", "item2");
+        img3D("imgbox3", "item3");
+        img3D("imgbox4", "item4")
+    }
+</script>
+
+
+<div id="footer">
+    <div class="ft_main">
+        <div class="ft_nav">
+            <a href="/t/aboutus" class="noborder">关于我们</a>
+            <cite>/</cite>
+            <a href="/t/sysdeliver_alipay">配送政策</a>
+            <cite>/</cite>
+            <a href="/t/joinus">加入我们</a>
+            <cite>/</cite>
+            <a href="/t/aboutus" target="_blank">帮助中心</a>
+            <cite>/</cite>
+            <a href="/jieshao/daili" target="_blank">加盟代理</a>
+            <cite>/</cite>
+            <a href="/sitemap">站点地图</a>
+            <cite>/</cite>
+            <a href="/t/contactus">联系我们</a>
+            <cite>/</cite>
+            <a href="/t/links">友情链接</a>
+        </div>
+        <div class="ft_txt">
+            <p>
+                Copyright 2016, 广州商宇网络科技有限公司 URSELECT.COM 
+                    备案号：<a rel="nofollow" href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备14084822号-2</a>
+            </p>
+            <p class="ft_contact">
+                    <span>服务时间：09:00-18:00 (法定节假日除外)</span>
+                                    <span class="ft_phone">
+                        客服热线:
+                        <em>020-28170928</em>
+                    </span>
+            </p>
+            <p class="flink">
+                <a href="http://www.orchardch.com" target="_blank">Orchard中文</a>
+                <a href="http://www.58img.com" target="_blank">Web前端资源网</a>
+                <a href="http://www.itjiangtan.com" target="_blank">IT讲坛</a>
+                <a href="http://cuiqingcai.com" target="_blank">静觅</a>
+				<a href="http://www.urselect.com" target="_blank">广州微商城开发</a>
+                <a href="http://gw.urselect.com" target="_blank">商宇科技</a>
+                <a href="http://www.72byte.com/thread" target="_blank">72变</a>
+                <a href="http://www.maidouvr.com" target="_blank">麦逗VR</a>
+				<a href="http://z5a.com" target="_blank">智能产品网</a>
+				<a href="http://www.cnfeelings.com/" target="_blank">情怀网</a>
+				<a href="http://www.xp510.com" target="_blank">系统之家</a>
+				<a href="http://www.urshop.cn" target="_blank">UrShop</a>
+				<a href="http://www.cssmoban.com" target="_blank">模板之家</a>
+				<a href="http://www.eecco.co" target="_blank">EECCO合伙人</a>
+				<a href="http://www.urselect.com" target="_blank">商城模板</a>
+				<a href="http://www.mb5u.com" target="_blank">模板无忧</a>
+            </p>
+        </div>
+        <div class="fsm fsm">
+            <a>
+                <img src="/images/qrcode.jpg" alt="关注优社电商微信">
+                <p>
+                    <i class="iconfont"></i>
+                    <br>扫描关注微信公众号
+                </p>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div id="g_sidebar" class="g_sidebar">
+    <ul class="sb_top">
+        <li class="sb_cart">
+            <a href="/cart">
+                <i class="iconfont">&#x19e;</i>
+                <span>购物车</span>
+                <em id="sidebar_cartnum" class="cartnum">0</em>
+            </a>
+        </li>
+    </ul>
+    <ul class="sb_btm">
+        <li>
+            <a href="/orders">
+                <i class="iconfont">&#xe652;</i>
+            </a>
+            <div class="tip">
+                <cite class="iconfont"></cite>
+                <a href="/orders">用户中心</a>
+            </div>
+        </li>
+        <li>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=1542823084&site=qq&menu=yes" target="_blank">
+                <i class="iconfont">&#x20c;</i>
+            </a>
+            <div class="tip">
+                <cite class="iconfont"></cite>
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=1542823084&site=qq&menu=yes" target="_blank">QQ联系</a>
+            </div>
+        </li>
+        <li>
+            <a href="/">
+                <i class="iconfont">&#xe653;</i>
+            </a>
+            <div class="tip">
+                <cite class="iconfont"></cite>
+                <a href="/">返回首页</a>
+            </div>
+        </li>
+        <li class="back2top">
+            <a href="javascript:;">
+                <i class="iconfont">&#xe646;</i>
+            </a>
+            <div class="tip">
+                <cite class="iconfont"></cite>
+                <a href="javascript:;">返回顶部</a>
+            </div>
+        </li>
+    </ul>
+</div>
+    
+    
+    
+    
+	
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?a6a3a9ed4b42dada31c3bf2b04b959bd";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?190eb351957ec86ed77493499670f82a";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+    </script>
+    <script src="https://qiyukf.com/script/d3c222c25810ff58b0d5da1adb71d227.js" defer async></script>
+</body>
+</html>

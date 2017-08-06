@@ -1,0 +1,4 @@
+[ 2016-11-21T09:16:59+08:00 ] 127.0.0.1 /myshop/shop/index.php/Admin/Category/tianjia
+ERR: 1062:Duplicate entry 'www' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('www','wwww','wwww','		www  ','5','0','1')
+

@@ -1,0 +1,517 @@
+[ 2017-02-15T00:00:04+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','sda','sad','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','sda','sad','1','0')
+
+[ 2017-02-15T00:00:26+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=SDA&keywords=SAD&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:01:34+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=aaa&keywords=aaa&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:01:50+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=aaa&keywords=aaa&sort=1s&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-15T00:01:54+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=aaa&keywords=aaa&sort=2&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-15T00:02:25+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=aaa&keywords=aa&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:03:39+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=222&keywords=22&sort=2&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-15T00:03:41+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=222&keywords=22&sort=2&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-15T00:03:59+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=dasd&keywords=sdad&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:04:43+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0050s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','qww','qqq','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','qww','qqq','1','0')
+
+[ 2017-02-15T00:09:00+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','aaa','aa','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','aaa','aa','1','0')
+
+[ 2017-02-15T00:13:37+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','sad','%E5%8D%81%E5%A4%A7','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','sad','%E5%8D%81%E5%A4%A7','1','0')
+
+[ 2017-02-15T00:14:02+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/admin/Category
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-02-15T00:14:41+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/admin/Category
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-02-15T00:15:01+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0050s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E6%98%AF','%E6%98%AF','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E6%98%AF','%E6%98%AF','1','0')
+
+[ 2017-02-15T00:16:47+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E5%8D%81%E5%A4%A7','%E5%8D%81%E5%A4%A7','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E5%8D%81%E5%A4%A7','%E5%8D%81%E5%A4%A7','1','0')
+
+[ 2017-02-15T00:17:07+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E8%B0%81%E6%89%93%E7%9A%84','%E5%8D%81%E5%A4%A7','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E8%B0%81%E6%89%93%E7%9A%84','%E5%8D%81%E5%A4%A7','1','0')
+
+[ 2017-02-15T00:17:49+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/admin/Category.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-02-15T00:18:15+08:00 ] ::1 /myshop/shop/index.php/admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-15T00:18:16+08:00 ] ::1 /myshop/shop/index.php/admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:18:35+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/admin/Category.php&pid=0&title=SAD&keywords=SAD%2520&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-02-15T00:19:23+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=sad%25E6%2598%25AF&keywords=%25E5%258D%2581%25E5%25A4%25A7&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:19:37+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=%25E7%2593%25A6%25E6%2596%25AF%25E7%25AD%2589%25E6%2588%2591&keywords=sad&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:20:42+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=SAD&keywords=SAD&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:21:26+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/admin/Category.php&pid=0&title=SADDSA&keywords=SADSAD&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-02-15T00:22:07+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category.php/tianjia&pid=0&title=sad%25E5%258D%2581%25E5%25A4%25A7&keywords=sad%25E5%2595%25A5%25E4%25BA%258B&sort=1&display=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category.php
+
+[ 2017-02-15T00:26:27+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category.php/tianjia&pid=0&title=DSAD&keywords=DSAD&sort=1&display=0&cname=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Category.php
+
+[ 2017-02-15T00:26:48+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=%25E5%25A4%25A7%25E5%25A3%25B0%25E5%25A4%25A7%25E5%25A3%25B0%25E9%2581%2593&keywords=%25E5%258D%2581%25E5%25A4%25A7&sort=1&display=0&cname=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-15T00:27:24+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/admin/Category&pid=0&title=%25E6%2589%2593%25E7%25AE%2597%25E7%259A%2584%25E6%2592%2592&keywords=sad&sort=1&display=0&cname=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-02-15T00:28:18+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/admin/Category&pid=0&title=1&keywords=11&sort=1&display=0&cname=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-02-15T00:29:30+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=sad%25E5%258D%2581%25E5%25A4%25A7&keywords=%25E5%258D%2581%25E5%25A4%25A7&sort=1&display=0&cname=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:35:44+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=sad&keywords=%25E5%25A4%25A7&sort=1&display=0&cname=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-15T00:37:00+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia&pid=0&title=%25E5%25A4%25A7&keywords=%25E5%258D%2581%25E5%25A4%25A7&sort=1&display=0&cname=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:37:54+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0060s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E5%95%8A','sad','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E5%95%8A','sad','1','0')
+
+[ 2017-02-15T00:38:14+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0050s ]
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E5%8D%81%E5%A4%A7','%E5%8D%81%E5%A4%A7','1','0')
+ERR: 1062:Duplicate entry '' for key 'cname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_category` (`pid`,`title`,`keywords`,`sort`,`display`) VALUES ('0','%E5%8D%81%E5%A4%A7','%E5%8D%81%E5%A4%A7','1','0')
+
+[ 2017-02-15T00:46:02+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:46:32+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T00:47:10+08:00 ] ::1 /myshop/shop/index.php?s=/admin/Category/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CategoryController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\myshop\shop\Admin\Controller\CategoryController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T02:34:37+08:00 ] ::1 /myshop/shop/index.php?s=/Admin/Category/index
+ERR: 非法操作:index
+

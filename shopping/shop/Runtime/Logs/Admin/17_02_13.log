@@ -1,0 +1,27 @@
+[ 2017-02-13T10:11:16+08:00 ] ::1 /myshop/shop/index.php/admin/index/action/user_action.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:action
+
+[ 2017-02-13T10:11:22+08:00 ] ::1 /myshop/shop/index.php/admin/index/extreme_award_user_list.php
+ERR: 非法操作:extreme_award_user_list
+
+[ 2017-02-13T10:11:50+08:00 ] ::1 /myshop/shop/index.php/admin/index/action/user_action.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:action
+
+[ 2017-02-13T10:11:52+08:00 ] ::1 /myshop/shop/index.php/admin/index/action/user_action.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:action
+
+[ 2017-02-13T10:12:02+08:00 ] ::1 /myshop/shop/index.php/admin/index/action/user_action.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:action
+

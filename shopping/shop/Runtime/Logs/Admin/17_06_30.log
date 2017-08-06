@@ -1,0 +1,422 @@
+[ 2017-06-30T21:26:08+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'waaaaaaaa' AND `password` = 'ddc1e926140c67a5ef3311dc5833cf84' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-06-30T21:26:22+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-06-30T21:26:34+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-30T21:26:42+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-30T21:38:44+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-06-30T21:38:53+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-30T21:50:47+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-30T21:53:36+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-30T21:56:47+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-30T22:01:04+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-30T22:04:21+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-30T22:14:21+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:15:04+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:15:04+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:18:13+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-30T22:18:13+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:18:13+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:18:53+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:18:53+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:23:35+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-30T22:23:37+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:23:37+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:34:50+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-06-30T22:35:02+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-06-30T22:35:22+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-06-30T22:35:29+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-06-30T22:35:33+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:35:48+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:35:48+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:38:53+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:38:53+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:40:14+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:40:14+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:43:33+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:43:33+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:45:21+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:45:21+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:46:57+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-06-30T22:47:05+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-30T22:47:07+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:47:07+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:47:18+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'aa' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-30T22:47:18+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:47:18+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:47:23+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:47:23+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:49:58+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:49:58+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:52:30+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:52:31+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:53:04+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:53:04+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:53:10+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:53:10+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:55:33+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:55:33+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:55:38+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:55:38+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:56:12+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:56:12+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:56:16+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:56:16+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:58:14+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T22:58:14+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:01:40+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:01:40+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:01:40+08:00 ] ::1 /shopping/shop/index.php/Admin/user/model.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+ERR: 非法操作:model
+
+[ 2017-06-30T23:01:44+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:01:44+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:01:44+08:00 ] ::1 /shopping/shop/index.php/Admin/user/model.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+ERR: 非法操作:model
+
+[ 2017-06-30T23:01:59+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:01:59+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:02:04+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:02:04+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:02:42+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:02:42+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:03:14+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:03:14+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:03:49+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:03:49+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:04:26+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:04:26+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:05:43+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:05:43+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:06:15+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:06:15+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:07:08+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:07:09+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:08:03+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:08:03+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:08:29+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-30T23:08:31+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:08:31+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:09:18+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:09:18+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:09:35+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:09:35+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:09:56+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:09:56+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:11:17+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:11:17+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:13:42+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:13:42+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:14:07+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:14:07+08:00 ] ::1 /shopping/shop/index.php/Admin/user/jquery.js
+ERR: 非法操作:jquery
+
+[ 2017-06-30T23:35:26+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-30T23:35:36+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-06-30T23:51:46+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+

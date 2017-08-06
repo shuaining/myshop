@@ -1,0 +1,11 @@
+[ 2016-12-16T09:18:45+08:00 ] 127.0.0.1 /myshop/shop/index.php/admin/show
+ERR: 无法加载控制器:Show
+
+[ 2016-12-16T09:24:21+08:00 ] ::1 /myshop/shop/index.php/Admin/Category/update/id/11
+ERR: 1062:Duplicate entry 'aaa' for key 'cname_UNIQUE'
+ [ SQL语句 ] : UPDATE `group_category` SET `cid`='11',`cname`='aaa',`keywords`='aaa',`description`='aaa',`sort`='0' WHERE ( cid=11 )
+
+[ 2016-12-16T10:53:38+08:00 ] ::1 /myshop/shop/index.php/Admin/Category/update/id/14
+ERR: 1062:Duplicate entry '啊啊' for key 'cname_UNIQUE'
+ [ SQL语句 ] : UPDATE `group_category` SET `cid`='14',`cname`='啊啊',`keywords`='啊啊啊啊',`description`='啊啊啊啊啊 ',`sort`='0' WHERE ( cid=14 )
+

@@ -1,0 +1,387 @@
+[ 2017-01-20T16:26:45+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BACSS%7D%7D/admin.css
+ERR: 非法操作:{{ACSS}}
+
+[ 2017-01-20T16:26:45+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/jquery.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:45+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/pintuer.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:45+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/angularJS.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:45+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BACSS%7D%7D/pintuer.css
+ERR: 非法操作:{{ACSS}}
+
+[ 2017-01-20T16:26:45+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/pintuer.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:45+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/angularJS.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:49+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BACSS%7D%7D/pintuer.css
+ERR: 非法操作:{{ACSS}}
+
+[ 2017-01-20T16:26:49+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/angularJS.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:49+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/pintuer.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:49+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/jquery.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:49+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BACSS%7D%7D/admin.css
+ERR: 非法操作:{{ACSS}}
+
+[ 2017-01-20T16:26:49+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/pintuer.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:26:49+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAJS%7D%7D/angularJS.js
+ERR: 非法操作:{{AJS}}
+
+[ 2017-01-20T16:27:09+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BACSS%7D%7D/admin.css
+ERR: 非法操作:{{ACSS}}
+
+[ 2017-01-20T16:27:09+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BACSS%7D%7D/pintuer.css
+ERR: 非法操作:{{ACSS}}
+
+[ 2017-01-20T16:27:34+08:00 ] ::1 /myshop/shop/index.php/Admin/category/ACSS/admin.css
+ERR: 非法操作:ACSS
+
+[ 2017-01-20T16:27:34+08:00 ] ::1 /myshop/shop/index.php/Admin/category/ACSS/pintuer.css
+ERR: 非法操作:ACSS
+
+[ 2017-01-20T16:59:33+08:00 ] ::1 /myshop/shop/index.php/Admin/category/ACSS/pintuer.css
+ERR: 非法操作:ACSS
+
+[ 2017-01-20T16:59:33+08:00 ] ::1 /myshop/shop/index.php/Admin/category/__PUBLIC__/admin/css/admin.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2017-01-20T17:00:06+08:00 ] ::1 /myshop/shop/index.php/Admin/category/__PUBLIC__/admin/css/pintuer.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2017-01-20T17:00:06+08:00 ] ::1 /myshop/shop/index.php/Admin/category/__PUBLIC__/admin/css/admin.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2017-01-20T17:00:09+08:00 ] ::1 /myshop/shop/index.php/Admin/category/__PUBLIC__/admin/css/admin.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2017-01-20T17:00:09+08:00 ] ::1 /myshop/shop/index.php/Admin/category/__PUBLIC__/admin/css/pintuer.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2017-01-20T17:16:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:16:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:16:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:16:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:16:17+08:00 ] ::1 /myshop/shop/index.php/Admin/category/Admin_CSS/admin.css
+ERR: 非法操作:Admin_CSS
+
+[ 2017-01-20T17:16:17+08:00 ] ::1 /myshop/shop/index.php/Admin/category/Admin_CSS/pintuer.css
+ERR: 非法操作:Admin_CSS
+
+[ 2017-01-20T17:16:35+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:16:35+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:16:35+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:16:35+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:16:36+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAdmin_CSS%7D%7D/admin.css
+ERR: 非法操作:{{Admin_CSS}}
+
+[ 2017-01-20T17:16:36+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7BAdmin_CSS%7D%7D/pintuer.css
+ERR: 非法操作:{{Admin_CSS}}
+
+[ 2017-01-20T17:17:05+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:17:05+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:17:05+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:17:05+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:19:47+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:19:47+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:19:47+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:19:47+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:19:47+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:19:48+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7BAdmin_CSS%7D/admin.css
+ERR: 非法操作:{Admin_CSS}
+
+[ 2017-01-20T17:19:48+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7BAdmin_CSS%7D/pintuer.css
+ERR: 非法操作:{Admin_CSS}
+
+[ 2017-01-20T17:20:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:20:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:20:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:20:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:20:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:23:08+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:23:08+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:23:08+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:23:08+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:23:08+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:23:29+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:23:29+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:23:30+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:23:30+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:24:57+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:24:57+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:24:57+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:24:57+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:27:17+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:27:17+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:27:17+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:27:17+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:28:28+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:28:28+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:28:28+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:28:28+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:28:29+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:30:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:30:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:30:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:30:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:30:16+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:32:14+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:32:14+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:32:14+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:32:14+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:32:14+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:49:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:49:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:49:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:49:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:49:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:55:36+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:55:36+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:55:36+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:55:36+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:56:34+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:56:34+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:56:34+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:56:34+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:56:34+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:59:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T17:59:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T17:59:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T17:59:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T17:59:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:01:12+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T18:01:12+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T18:01:12+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:01:12+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T18:01:12+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:01:49+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7Bu('admin/category/store')%7D%7D
+ERR: 非法操作:{{u('admin
+
+[ 2017-01-20T18:02:33+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T18:02:33+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T18:02:33+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:02:33+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T18:02:33+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:03:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T18:03:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T18:03:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T18:03:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:03:03+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:03:30+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T18:03:30+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T18:03:30+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T18:03:30+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:03:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLpintuer.css
+ERR: 非法操作:Admin_CSS_URLpintuer
+
+[ 2017-01-20T18:03:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_CSS_URLadmin.css
+ERR: 非法操作:Admin_CSS_URLadmin
+
+[ 2017-01-20T18:03:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:03:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLjquery.js
+ERR: 非法操作:Admin_JS_URLjquery
+
+[ 2017-01-20T18:03:59+08:00 ] ::1 /myshop/shop/index.php/Admin/index/Admin_JS_URLpintuer.js
+ERR: 非法操作:Admin_JS_URLpintuer
+
+[ 2017-01-20T18:04:10+08:00 ] ::1 /myshop/shop/index.php/Admin/category/%7B%7Bu('admin/category/store')%7D%7D
+ERR: 非法操作:{{u('admin
+

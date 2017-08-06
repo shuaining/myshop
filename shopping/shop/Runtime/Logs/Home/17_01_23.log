@@ -1,0 +1,6 @@
+[ 2017-01-23T16:33:46+08:00 ] ::1 /myshop/shop/index.php/CategoryController/show
+ERR: 无法加载控制器:CategoryController
+
+[ 2017-01-23T16:33:57+08:00 ] ::1 /myshop/shop/index.php/Category/show
+ERR: 无法加载控制器:Category
+

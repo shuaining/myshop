@@ -1,0 +1,353 @@
+[ 2017-03-23T09:20:16+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-23T09:59:35+08:00 ] ::1 /shopping/shop/index.php/admin/type/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_type` [ RunTime:0.0010s ]
+SQL: DELETE FROM `group_type` WHERE `tid` = 5 [ RunTime:0.0960s ]
+
+[ 2017-03-23T09:59:45+08:00 ] ::1 /shopping/shop/index.php/admin/Type/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_type` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_type` (`typename`) VALUES ('电脑') [ RunTime:0.0940s ]
+
+[ 2017-03-23T10:00:07+08:00 ] ::1 /shopping/shop/index.php/admin/Type/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_type` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_type` (`typename`) VALUES ('电动车') [ RunTime:0.0980s ]
+
+[ 2017-03-23T10:01:38+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('配置','','','','6') [ RunTime:0.0760s ]
+
+[ 2017-03-23T11:07:54+08:00 ] ::1 /shopping/shop/index.php/Admin/attribute/__SLEF__/tid/6
+ERR: 非法操作:__SLEF__
+
+[ 2017-03-23T11:29:33+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('材质','','','','7') [ RunTime:0.1360s ]
+
+[ 2017-03-23T11:29:40+08:00 ] ::1 /shopping/shop/index.php/Admin/Attribute/__SLEF__/tid/7
+ERR: 非法操作:__SLEF__
+
+[ 2017-03-23T11:32:44+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('我说说','','','','4') [ RunTime:0.0940s ]
+
+[ 2017-03-23T11:33:13+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('发的发生的','','','','4') [ RunTime:0.1220s ]
+
+[ 2017-03-23T11:33:16+08:00 ] ::1 /shopping/shop/index.php/Admin/Attribute/__SLEF__/tid/6
+ERR: 非法操作:__SLEF__
+
+[ 2017-03-23T11:35:20+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('我说说','','','','4') [ RunTime:0.1360s ]
+
+[ 2017-03-23T11:35:26+08:00 ] ::1 /shopping/shop/index.php/Admin/Attribute/__SLEF__/tid/6
+ERR: 非法操作:__SLEF__
+
+[ 2017-03-23T11:38:57+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('啊啊啊','','','','6') [ RunTime:0.1200s ]
+
+[ 2017-03-23T11:39:56+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('aaaaa ','','','','6') [ RunTime:0.0800s ]
+
+[ 2017-03-23T11:40:04+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('aaaaa ','','','','6') [ RunTime:0.0890s ]
+
+[ 2017-03-23T11:42:13+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('bbbbb','','','','6') [ RunTime:0.0980s ]
+
+[ 2017-03-23T14:28:54+08:00 ] ::1 /shopping/shop/index.php/admin/User/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid F:\xampp\htdocs\shopping\shop\Admin\Controller\UserController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_user` WHERE `uid` = null [ RunTime:0.0000s ]
+
+[ 2017-03-23T14:29:14+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('配置三','','','','6') [ RunTime:0.0840s ]
+
+[ 2017-03-23T14:30:42+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='那你呢',`tid`='6',`attr_type`='',`attr_input_type`='',`attr_value`='' WHERE `aid` = '8' [ RunTime:0.0820s ]
+
+[ 2017-03-23T14:31:54+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='嘎嘎嘎',`tid`='6',`attr_type`='',`attr_input_type`='',`attr_value`='' WHERE `aid` = '8' [ RunTime:0.0790s ]
+
+[ 2017-03-23T14:32:00+08:00 ] ::1 /shopping/shop/index.php/Admin/attribute/__SLEF__/tid/6
+ERR: 非法操作:__SLEF__
+
+[ 2017-03-23T15:21:42+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='材质',`tid`='7',`attr_type`='',`attr_input_type`='',`attr_value`='' WHERE `aid` = '4' [ RunTime:0.0810s ]
+
+[ 2017-03-23T15:21:45+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='材质',`tid`='7',`attr_type`='',`attr_input_type`='',`attr_value`='' WHERE `aid` = '4' [ RunTime:0.0540s ]
+
+[ 2017-03-23T15:21:50+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='材质',`tid`='7',`attr_type`='',`attr_input_type`='',`attr_value`='' WHERE `aid` = '4' [ RunTime:0.0740s ]
+
+[ 2017-03-23T15:21:52+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='材质',`tid`='7',`attr_type`='',`attr_input_type`='',`attr_value`='' WHERE `aid` = '4' [ RunTime:0.0610s ]
+
+[ 2017-03-23T15:21:54+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='材质',`tid`='7',`attr_type`='',`attr_input_type`='',`attr_value`='' WHERE `aid` = '4' [ RunTime:0.0630s ]
+
+[ 2017-03-23T15:22:00+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='aa',`tid`='7',`attr_type`='',`attr_input_type`='',`attr_value`='' WHERE `aid` = '4' [ RunTime:0.0870s ]
+
+[ 2017-03-23T15:26:26+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('ssss','','1','2','4') [ RunTime:0.1460s ]
+
+[ 2017-03-23T15:26:48+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='aaa',`tid`='4',`attr_type`='',`attr_input_type`='2',`attr_value`='2' WHERE `aid` = '1' [ RunTime:0.0820s ]
+
+[ 2017-03-23T16:02:24+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='a',`tid`='4',`attr_type`='',`attr_input_type`='1',`attr_value`='1' WHERE `aid` = '8' [ RunTime:0.0820s ]
+
+[ 2017-03-23T16:49:12+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('啊啊啊啊啊','2','1','啊啊啊啊啊啊','4') [ RunTime:0.0920s ]
+
+[ 2017-03-23T17:00:30+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('口可口可','1','2','','7') [ RunTime:0.0850s ]
+
+[ 2017-03-23T17:00:42+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='口可口可',`tid`='7',`attr_type`='',`attr_input_type`='0',`attr_value`='' WHERE `aid` = '15' [ RunTime:0.0880s ]
+
+[ 2017-03-23T17:02:48+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_attribute` SET `attr_name`='口可口可',`tid`='7',`attr_type`='0',`attr_input_type`='0',`attr_value`='爱谁谁' WHERE `aid` = '15' [ RunTime:0.0830s ]
+
+[ 2017-03-23T17:15:01+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 14 [ RunTime:0.0690s ]
+
+[ 2017-03-23T17:15:08+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0030s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 13 [ RunTime:0.0640s ]
+
+[ 2017-03-23T17:15:12+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0030s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 5 [ RunTime:0.0510s ]
+
+[ 2017-03-23T17:15:17+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 6 [ RunTime:0.1080s ]
+
+[ 2017-03-23T17:15:22+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0040s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 7 [ RunTime:0.0740s ]
+
+[ 2017-03-23T17:15:28+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 8 [ RunTime:0.0640s ]
+
+[ 2017-03-23T17:20:51+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 15 [ RunTime:0.1240s ]
+
+[ 2017-03-23T17:28:00+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 12 [ RunTime:0.0800s ]
+
+[ 2017-03-23T17:30:07+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 11 [ RunTime:0.0570s ]
+
+[ 2017-03-23T17:30:49+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0010s ]
+SQL: DELETE FROM `group_attribute` WHERE `aid` = 10 [ RunTime:0.2000s ]
+
+[ 2017-03-23T17:30:57+08:00 ] ::1 /shopping/shop/index.php/Admin/attribute/__SLEF__/tid/6
+ERR: 非法操作:__SLEF__
+

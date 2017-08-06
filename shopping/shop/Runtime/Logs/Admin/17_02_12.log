@@ -1,0 +1,156 @@
+[ 2017-02-12T08:58:31+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2017-02-12T08:58:31+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-02-12T08:58:31+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-02-12T08:58:31+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:03:16+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:03:16+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:35:00+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:35:00+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:35:00+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:35:00+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:35:20+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:35:20+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:35:20+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:35:20+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:35:43+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:35:43+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:35:43+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:35:43+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:36:01+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:36:01+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/pintuer.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:36:01+08:00 ] ::1 /myshop/shop/index.php/admin/index/css/pintuer.css
+ERR: 非法操作:css
+
+[ 2017-02-12T09:36:01+08:00 ] ::1 /myshop/shop/index.php/admin/index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-02-12T09:38:34+08:00 ] ::1 /myshop/shop/index.php/admin/index/top.html
+ERR: 非法操作:top
+
+[ 2017-02-12T09:38:34+08:00 ] ::1 /myshop/shop/index.php/admin/index/left.html
+ERR: 非法操作:left
+
+[ 2017-02-12T10:56:07+08:00 ] ::1 /shop/index.php/admin/index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-02-12T11:04:32+08:00 ] ::1 /shop/index.php/admin/index/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:06:06+08:00 ] ::1 /shop/index.php/admin/index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-02-12T11:15:50+08:00 ] ::1 /shop/index.php/admin/index/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:21:55+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:21:57+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:22:00+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:22:05+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:22:48+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:23:38+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:23:53+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:23:55+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:25:07+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:25:07+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:25:11+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:25:12+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:25:26+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:25:26+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:25:28+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:25:28+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:26:25+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:26:46+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:26:47+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:27:00+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:27:01+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:27:01+08:00 ] ::1 /shop/index.php/admin/category/add.html
+ERR: 非法操作:add
+
+[ 2017-02-12T11:43:20+08:00 ] ::1 /shop/index.php/admin/index/module.html
+ERR: 非法操作:module
+
+[ 2017-02-12T16:07:18+08:00 ] ::1 /shop/index.php/admin/index/Bootstrap_Min_CSS
+ERR: 非法操作:Bootstrap_Min_CSS
+

@@ -1,0 +1,483 @@
+[ 2017-03-15T09:46:52+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.1850s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-15T10:22:06+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-15T14:34:50+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('ed','按时','撒',' sad','1','0','1') [ RunTime:0.0550s ]
+
+[ 2017-03-15T14:39:24+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('啊啊啊','啊啊啊','啊啊啊','啊啊啊啊','222','1','21') [ RunTime:0.0690s ]
+
+[ 2017-03-15T14:52:57+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-15T15:24:44+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+
+[ 2017-03-15T15:24:51+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+
+[ 2017-03-15T15:24:54+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+
+[ 2017-03-15T15:24:57+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+
+[ 2017-03-15T15:24:59+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+
+[ 2017-03-15T15:25:06+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+
+[ 2017-03-15T15:25:07+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('请选择分类','啊啊啊','啊啊啊w','啊啊','1111','0','0','1')
+
+[ 2017-03-15T15:28:46+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '19' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('aaaaa','aaaa','aaa','aa','112','0','4','19')
+ERR: 1062:Duplicate entry '19' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`,`cid`) VALUES ('aaaaa','aaaa','aaa','aa','112','0','4','19')
+
+[ 2017-03-15T15:35:24+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+
+[ 2017-03-15T15:35:40+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='2147483647',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.1146s ]
+
+[ 2017-03-15T15:35:52+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='11111111',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.1010s ]
+
+[ 2017-03-15T15:36:00+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='11111111',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.0784s ]
+
+[ 2017-03-15T15:36:07+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='11111111',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.0668s ]
+
+[ 2017-03-15T15:36:12+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='33333',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.0412s ]
+
+[ 2017-03-15T15:36:19+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='1111111',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.0758s ]
+
+[ 2017-03-15T15:37:04+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='22',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.0794s ]
+
+[ 2017-03-15T15:37:07+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='11',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.0410s ]
+
+[ 2017-03-15T15:37:14+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='2147483647',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.0784s ]
+
+[ 2017-03-15T15:37:21+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='111111111',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.3464s ]
+
+[ 2017-03-15T15:37:24+08:00 ] ::1 /shopping/shop/index.php/admin/Category/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `group_category` SET `cname`='aaa',`keywords`='aaaaaaaaa',`title`='aaaaaaaaaa',`description`='aaaaaaaaaa',`sort`='1111',`display`='0',`pid`='20' WHERE `cid` = 23 [ RunTime:0.1000s ]
+
+[ 2017-03-15T15:40:29+08:00 ] ::1 /shopping/shop/index.php/admin/User/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid F:\xampp\htdocs\shopping\shop\Admin\Controller\UserController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_user` WHERE `uid` = null [ RunTime:0.0000s ]
+
+[ 2017-03-15T15:41:23+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+
+[ 2017-03-15T15:41:31+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+
+[ 2017-03-15T15:42:00+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+
+[ 2017-03-15T15:42:11+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: cd F:\xampp\htdocs\shopping\shop\Admin\Controller\CategoryController.class.php 第 85 行.
+
+[ 2017-03-15T15:42:39+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+
+[ 2017-03-15T15:42:43+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 19 [ RunTime:0.0650s ]
+
+[ 2017-03-15T15:44:26+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 17 [ RunTime:0.0480s ]
+
+[ 2017-03-15T15:44:29+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0010s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 22 [ RunTime:0.0710s ]
+
+[ 2017-03-15T15:44:31+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 4 [ RunTime:0.1910s ]
+
+[ 2017-03-15T15:44:33+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0010s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 2 [ RunTime:0.0700s ]
+
+[ 2017-03-15T15:44:35+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 3 [ RunTime:0.0820s ]
+
+[ 2017-03-15T15:44:37+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 13 [ RunTime:0.0570s ]
+
+[ 2017-03-15T15:44:39+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+
+[ 2017-03-15T15:44:41+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 18 [ RunTime:0.3310s ]
+
+[ 2017-03-15T15:44:46+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 23 [ RunTime:0.0950s ]
+
+[ 2017-03-15T15:44:48+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 21 [ RunTime:0.2340s ]
+
+[ 2017-03-15T15:44:50+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 20 [ RunTime:0.1280s ]
+
+[ 2017-03-15T15:44:52+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0010s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 16 [ RunTime:0.0670s ]
+
+[ 2017-03-15T15:44:58+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 15 [ RunTime:0.0470s ]
+
+[ 2017-03-15T15:45:00+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 14 [ RunTime:0.0490s ]
+
+[ 2017-03-15T15:45:02+08:00 ] ::1 /shopping/shop/index.php/admin/category/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0010s ]
+SQL: DELETE FROM `group_category` WHERE `cid` = 1 [ RunTime:0.0750s ]
+
+[ 2017-03-15T15:45:29+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/column.html
+ERR: 非法操作:column
+
+[ 2017-03-15T15:45:29+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/column.html
+ERR: 非法操作:column
+
+[ 2017-03-15T15:45:30+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/book.html
+ERR: 非法操作:book
+
+[ 2017-03-15T15:45:31+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/book.html
+ERR: 非法操作:book
+
+[ 2017-03-15T15:45:31+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/adv.html
+ERR: 非法操作:adv
+
+[ 2017-03-15T15:45:32+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/page.html
+ERR: 非法操作:page
+
+[ 2017-03-15T15:45:33+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-03-15T15:45:33+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-03-15T15:45:34+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-03-15T15:45:35+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/page.html
+ERR: 非法操作:page
+
+[ 2017-03-15T15:45:36+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/adv.html
+ERR: 非法操作:adv
+
+[ 2017-03-15T15:45:36+08:00 ] ::1 /shopping/shop/index.php/Admin/Index/adv.html
+ERR: 非法操作:adv
+
+[ 2017-03-15T15:45:48+08:00 ] ::1 /shopping/shop/index.php/Admin/Login/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-15T15:45:55+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+

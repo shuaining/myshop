@@ -1,0 +1,19 @@
+<div class="leftnav">
+  <h2><span class="icon-user"></span>基本设置</h2>  
+  <a href="__MODULE__/user/index" target="right"><h2><span class="icon-pencil-square-o"></span>用户管理</h2></a>
+  <a href="__MODULE__/category/index" target="right"><h2><span class="icon-pencil-square-o"></span>栏目管理</h2>
+  <a href="__MODULE__/type/index" target="right"> <h2><span class="icon-pencil-square-o"></span>类型管理</h2></a>
+</div>
+<script type="text/javascript">
+$(function(){
+  $(".leftnav h2").click(function(){
+	  $(this).next().slideToggle(200);	
+	  $(this).toggleClass("on"); 
+  })
+  $(".leftnav ul li a").click(function(){
+	    $("#a_leader_txt").text($(this).text());
+  		$(".leftnav ul li a").removeClass("on");
+		$(this).addClass("on");
+  })
+});
+</script>

@@ -1,0 +1,3 @@
+[ 2016-11-10T10:31:24+08:00 ] ::1 /myshop/shop/
+ERR: Syntax Error in template "D:/wamp/www/myshop/shop/Home/View\Index\index.html"  on line 110 "onfocus=&quot;if(this.value=='搜索所有商品')this.value=''&quot; onblur=&quot;if(this.value=='') {this.value = '搜索所有商品';}&quot;&gt;"  - Unexpected ".", expected one of: "}" , " "
+

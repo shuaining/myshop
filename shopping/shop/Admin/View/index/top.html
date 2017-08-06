@@ -1,0 +1,51 @@
+<block name="top">
+
+<div class="header bg-main">
+ <div class="leftnav-title"><strong><a class="button button-little bg-green toggle" id="menu-toggle1" href="javascript:;" target="_blank"><span class="icon-home"></span> 菜单列表</a></strong></div>
+  <div class="logo margin-big-left fadein-top">
+    <h1>后台管理中心</h1>
+  </div>
+  <div class="head-l"> &nbsp;&nbsp;<a class="button button-little bg-green" href="" target="_blank"><span class="icon-home"></span> 前台首页</a> &nbsp;&nbsp;<a href="##" class="button button-little bg-blue"><span class="icon-wrench"></span> 清除缓存</a> &nbsp;&nbsp;<button class="button button-little bg-red" id="zhuxiao"><span class="icon-power-off"></span> 退出登录</button> </div>
+</div>
+<style>
+
+</style>
+ <ul class="menu" data-menu data-menu-toggle="#menu-toggle1">
+    <li>
+      <a href="__MODULE__/user/index" target="right">用户管理</a>
+    </li>
+    <li class="menu-separator"></li>
+    <li>
+      <a href="__MODULE__/category/index" target="right">栏目管理</a>
+    </li>
+	<li class="menu-separator"></li>
+    <li>
+      <a href="__MODULE__/type/index" target="right">类型管理</a>
+    </li>
+	<li class="menu-separator"></li>
+    <li>
+      <a href="#">商品管理</a>
+    </li>
+    <li class="menu-separator"></li>
+    <li>
+      <a href="#">Excepteur sint</a>
+    </li>
+  </ul>
+  
+<script>
+$(document).ready(function(){
+	$("#zhuxiao").click(function(){ 	
+		layer.confirm('你确定要退出吗？', {
+		  btn: ['确定','取消'] //按钮
+		}, function(msg){
+		  $.get("__MODULE__/Login/loginout", function(msg){
+					 window.location.href = msg.url;
+				});
+		 
+		}, function(){
+		  layer.msg('继续操作吧');
+		});
+	});
+});
+</script>
+</block>

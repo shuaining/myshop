@@ -1,0 +1,202 @@
+[ 2017-03-06T09:47:26+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-06T09:47:32+08:00 ] ::1 /shopping/shop/index.php/Admin/Login/loginout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T09:47:47+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-06T10:59:46+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add?email=244291788%40qq.com&uname=wangan&password=123456&phone=15539287722
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('244291788@qq.com','wangan','123456','15539287722') [ RunTime:0.0610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T11:02:27+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T13:35:28+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('w2e2','weqwe','a38933e6379e64d2fdbad595cec0b8c9','weqe') [ RunTime:0.1064s ]
+
+[ 2017-03-06T13:35:43+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('WQEWQE','WQEQ','302b173f8a1ad39ed5bc76d18c95174b','EWQEWQ') [ RunTime:0.0800s ]
+
+[ 2017-03-06T13:40:14+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry 'wangning@cmstop.com' for key 'email_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wangning@cmstop.com','wangan','e10adc3949ba59abbe56e057f20f883e','15539287722')
+ERR: 1062:Duplicate entry 'wangning@cmstop.com' for key 'email_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wangning@cmstop.com','wangan','e10adc3949ba59abbe56e057f20f883e','15539287722')
+
+[ 2017-03-06T13:40:58+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry 'ewqeqw' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('weqwe','ewqeqw','4515d4405ad5b83eb94e7520b242f681','312312312')
+ERR: 1062:Duplicate entry 'ewqeqw' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('weqwe','ewqeqw','4515d4405ad5b83eb94e7520b242f681','312312312')
+
+[ 2017-03-06T13:41:21+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry 'WQEQ' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wqeqwe','WQEQ','61440c0d269913845276bf21f8509232','eqweqw')
+ERR: 1062:Duplicate entry 'WQEQ' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wqeqwe','WQEQ','61440c0d269913845276bf21f8509232','eqweqw')
+
+[ 2017-03-06T13:41:48+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wweqwe','ewqeqwe','a90a4b425414df32da83a819a546906d','21312312') [ RunTime:0.0552s ]
+
+[ 2017-03-06T13:42:28+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wqeqwe','WQEwqeq','7cd185712f9170738984a7f60d2872a1','12312312') [ RunTime:0.1020s ]
+
+[ 2017-03-06T13:42:44+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry 'WQEQ' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('','WQEQ','302b173f8a1ad39ed5bc76d18c95174b','')
+ERR: 1062:Duplicate entry 'WQEQ' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('','WQEQ','302b173f8a1ad39ed5bc76d18c95174b','')
+
+[ 2017-03-06T13:42:59+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry 'WQEQ' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('','WQEQ','302b173f8a1ad39ed5bc76d18c95174b','')
+ERR: 1062:Duplicate entry 'WQEQ' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('','WQEQ','302b173f8a1ad39ed5bc76d18c95174b','')
+
+[ 2017-03-06T13:43:13+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry 'wqeqwe' for key 'email_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wqeqwe','WQEQqwewqewq','7096bc1ec0e774353b9669086c302ec6','1232131')
+ERR: 1062:Duplicate entry 'wqeqwe' for key 'email_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wqeqwe','WQEQqwewqewq','7096bc1ec0e774353b9669086c302ec6','1232131')
+
+[ 2017-03-06T13:44:28+08:00 ] ::1 /shopping/shop/index.php/Admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '321312312' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('23123123','321312312','44162e19ef0752ed6bef2a149c0cc5e2','2313333333333')
+ERR: 1062:Duplicate entry '321312312' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('23123123','321312312','44162e19ef0752ed6bef2a149c0cc5e2','2313333333333')
+
+[ 2017-03-06T13:46:07+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry 'WQEQ' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('','WQEQ','d41d8cd98f00b204e9800998ecf8427e','')
+ERR: 1062:Duplicate entry 'WQEQ' for key 'uname_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('','WQEQ','d41d8cd98f00b204e9800998ecf8427e','')
+
+[ 2017-03-06T13:46:16+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('21321','WQEQ31231','97b63e377b16ff2f0df0cfa487236942','21312') [ RunTime:0.1896s ]
+
+[ 2017-03-06T13:46:21+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0156s ]
+ERR: 1062:Duplicate entry '21321' for key 'email_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('21321','WQEQ31231','97b63e377b16ff2f0df0cfa487236942','21312')
+ERR: 1062:Duplicate entry '21321' for key 'email_UNIQUE'
+ [ SQL语句 ] : INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('21321','WQEQ31231','97b63e377b16ff2f0df0cfa487236942','21312')
+
+[ 2017-03-06T13:51:06+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('e23213','3213213','2edd6b69c0a718a2024e1c711376604b','3213213') [ RunTime:0.0640s ]
+
+[ 2017-03-06T13:51:53+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('ewqewqe','23213123','cfcff1ee31340929aac0f48b0b7f5dbc','32142142`') [ RunTime:0.1740s ]
+
+[ 2017-03-06T13:52:46+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('wqewqewqewqe','WQEQewqewqewqe','e468f924cc91df0592d798373a10a66a','213123123') [ RunTime:0.0678s ]
+

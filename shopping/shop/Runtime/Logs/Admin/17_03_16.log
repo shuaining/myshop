@@ -1,0 +1,61 @@
+[ 2017-03-16T09:51:14+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-16T09:52:14+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('服装','服装 衣服 男装 女装','服装','各种服装','0','1','0') [ RunTime:0.0300s ]
+
+[ 2017-03-16T14:06:52+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('男装','男，男装装','男装','性感男士','1','1','1') [ RunTime:0.0880s ]
+
+[ 2017-03-16T14:07:43+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('女装','女 女装','女装','性感女士','3','1','1') [ RunTime:0.0680s ]
+
+[ 2017-03-16T14:09:07+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('电子产品','电子','电子产品','电子科技','4','1','0') [ RunTime:0.0970s ]
+
+[ 2017-03-16T14:09:27+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('手机','手机','手机','手机','5','1','4') [ RunTime:0.0740s ]
+
+[ 2017-03-16T14:11:10+08:00 ] ::1 /shopping/shop/index.php/admin/Category/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_category` (`cname`,`keywords`,`title`,`description`,`sort`,`display`,`pid`) VALUES ('电脑','电脑','电脑','电脑','6','1','4') [ RunTime:0.1100s ]
+

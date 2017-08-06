@@ -1,0 +1,117 @@
+[ 2017-03-21T09:29:05+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-21T11:07:48+08:00 ] ::1 /shopping/shop/index.php/Admin/Attribute/add
+ERR: 1146:Table 'hdgroup.group_goods_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_goods_type`
+
+[ 2017-03-21T11:08:15+08:00 ] ::1 /shopping/shop/index.php/Admin/Attribute/add
+ERR: 1146:Table 'hdgroup.group_goods_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_goods_type`
+
+[ 2017-03-21T11:17:35+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-21T15:00:12+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-21T15:03:57+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-21T15:03:59+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-21T15:04:00+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-21T15:04:00+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-21T15:04:00+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-21T15:04:00+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-21T15:04:06+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('aaa','','','','4') [ RunTime:0.0470s ]
+
+[ 2017-03-21T15:08:52+08:00 ] ::1 /shopping/shop/index.php/admin/Type/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_type` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_type` (`typename`) VALUES ('电脑') [ RunTime:0.0710s ]
+
+[ 2017-03-21T15:56:09+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-03-21T16:12:18+08:00 ] ::1 /shopping/shop/index.php/Admin/Attribute/index/tid/4
+ERR: 1146:Table 'hdgroup.group_goods_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_goods_type`
+
+[ 2017-03-21T16:14:09+08:00 ] ::1 /shopping/shop/index.php/Admin/Attribute/index/tid/4
+ERR: 1146:Table 'hdgroup.group_goods_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_goods_type`
+
+[ 2017-03-21T16:14:14+08:00 ] ::1 /shopping/shop/index.php/Admin/Attribute/index/tid/4
+ERR: 1146:Table 'hdgroup.group_goods_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_goods_type`
+
+[ 2017-03-21T16:17:35+08:00 ] ::1 /shopping/shop/index.php/admin/attribute/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `group_attribute` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\xampp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`attr_value`,`tid`) VALUES ('颜色','','','','5') [ RunTime:0.0820s ]
+

@@ -1,0 +1,76 @@
+[ 2017-04-18T19:47:25+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-04-18T19:47:44+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'hdgroup'
+
+[ 2017-04-18T19:47:46+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-04-18T19:47:56+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'hdgroup'
+
+[ 2017-04-18T19:48:00+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-04-18T19:48:14+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'hdgroup'
+
+[ 2017-04-18T19:48:15+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-04-18T20:15:04+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-18T20:17:30+08:00 ] ::1 /shopping/shop/index.php/admin/User/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0280s ]
+NOTIC: [8] Undefined index: validate J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `group_user` WHERE `email` = '244291788@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `group_user` WHERE `phone` = '13396041814' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto J:\xamp\htdocs\shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `group_user` (`email`,`uname`,`password`,`phone`) VALUES ('244291788@qq.com','admin','e10adc3949ba59abbe56e057f20f883e','13396041814') [ RunTime:0.0517s ]
+
+[ 2017-04-18T20:17:50+08:00 ] ::1 /shopping/shop/index.php/admin/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `group_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `group_user` WHERE `uname` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-04-18T20:17:52+08:00 ] ::1 /shopping/shop/index.php/Admin/type/index
+ERR: 1146:Table 'hdgroup.group_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_type`
+
+[ 2017-04-18T20:17:54+08:00 ] ::1 /shopping/shop/index.php/Admin/type/index
+ERR: 1146:Table 'hdgroup.group_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_type`
+
+[ 2017-04-18T20:18:56+08:00 ] ::1 /shopping/shop/index.php/Admin/type/index
+ERR: 1146:Table 'hdgroup.group_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group_type`
+
